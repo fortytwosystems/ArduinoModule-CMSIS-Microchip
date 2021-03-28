@@ -1,0 +1,2 @@
+## Packaging instructions
+To package this repository into the required files for the Arduino IDE, run ```make all```. In linux this *should* just work (untested), for Windows you'll need to install Cygwin with the Perl package selected and run it from the Cygwin terminal. 

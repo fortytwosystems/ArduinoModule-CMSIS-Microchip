@@ -63,10 +63,6 @@
   #include "samc21j18a.h"
 #elif defined(__SAMC21J18AU__) || defined(__ATSAMC21J18AU__)
   #include "samc21j18au.h"
-#elif defined(__SAMC21N17A__) || defined(__ATSAMC21N17A__)
-  #include "samc21n17a.h"
-#elif defined(__SAMC21N18A__) || defined(__ATSAMC21N18A__)
-  #include "samc21n18a.h"
 #else
   #error Library does not support the specified device.
 #endif

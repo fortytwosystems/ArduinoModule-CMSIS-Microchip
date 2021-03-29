@@ -1,0 +1,16 @@
+{
+    "name": "framework-cmsis-microchip-fortytwo",
+    "version": "1.0.0",
+    "description": "Microchip ARM devices CMSIS modules",
+    "keywords": [
+      "framework",
+      "arm",
+      "microchip",
+      "samc",
+      "samd"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/fortytwosystems/ArduinoModule-CMSIS-Microchip"
+    }
+  }

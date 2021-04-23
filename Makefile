@@ -33,7 +33,8 @@ endif
 all: clean print_info
 	@echo ----------------------------------------------------------
 	@echo "Packaging module."
-	tar --exclude=.gitattributes --exclude=.travis.yml --exclude=.git -cjf "$(PACKAGE_NAME)-$(PACKAGE_VERSION).tar.bz2" "$(PACKAGE_FOLDER)"
+	tar --exclude=.gitattributes --exclude=.travis.yml --exclude=.git -cf "$(PACKAGE_NAME)-$(PACKAGE_VERSION).tar" "$(PACKAGE_FOLDER)"
+	bzip2 "$(PACKAGE_NAME)-$(PACKAGE_VERSION).tar"
 	$(MAKE) --no-builtin-rules postpackaging -C .
 	@echo ----------------------------------------------------------
 
